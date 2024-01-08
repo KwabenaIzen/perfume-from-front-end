@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+html{
+  
+    background-color: (228, 12%, 48%);
+
+}
+body{ background-color: hsl(30, 38%, 92%);
+    height: 200px;
+  
+ 
+  }
+p{font-size: 14px;}
+#main-section p img{
+  
+    border-bottom-left-radius: 10px; 
+    border-top-left-radius:10px;
+    /*display: grid;
+    grid-column-start: 1 / 3;*/
+    height:610px;
+  
+}
+
+#main-section{ 
+     margin-left: 20%;
+     margin-right: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr ;
+    grid-gap: 0;
+
+
+    
+}
+#about p{
+      font-family: 'Montserrat', sans-serif;
+
+
+}
+#about{   height:550px;
+  width: 280px;
+    font-weight: 500 700;
+    line-height: 30px;
+    padding: 30px;
+    text-align: left;
+    display: grid;
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    
+    
+}
+#about p{
+   
+    color: hsl(228, 12%, 48%);
+}
+#about h1{
+     line-height: 38px;
+     margin-bottom: 12px;
+     margin-top: 12px;
+}
+
+#about a{  font-family: 'Montserrat', sans-serif;
+   
+    color: white;
+    font-weight: bold;
+text-decoration: none;
+text-align: center;
+background-color: hsl(158, 36%, 37%);
+padding: 20px;
+padding-left: 22px;
+border-radius: 5px;
+max-width:250px;
+min-width: 0 auto;
+
+}
+#prices{
+    justify-content: space-between;
+    display: flex;
+    padding: 12px;
+
+}
+#prices h1{
+    margin-bottom: 2px;
+    color: hsl(158, 36%, 37%) ;
+}
+#prices p{margin-bottom: 1px;
+    text-decoration: line-through;
+
+}
+ h1{
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    font-size: 250%;
+}
+#type{margin-top: 20px;}
